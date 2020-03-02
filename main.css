@@ -114,12 +114,19 @@ body::after {
 }
 
 select {
+	margin-top: 10px;
 	width: 20em;
 	height: 3em;
 	line-height: 3;
 	background: #2c3e50;
-	border-radius: 0.25em;
+	border: none;
 	padding: 0 0.5em;
 	color: #fff;
 	cursor: pointer;
+}
+
+option {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 200;
 }
