@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>js-tip-calculator</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div class="main-wrapper">
+			<div class="cal-item">
+				<h5>BIll Amount</h5>
+				<input id="bill" value="" type="text" placeholder="$00.00" />
+			</div>
+			<div class="cal-item">
+				<h5>Tip</h5>
+				<h2><span id="tipStatus"></span> <span>%</span></h2>
+				<select id="tip">
+					<option disabled selected value="0">Choose an Option</option>
+					<option value="30">30% Outstanding</option>
+					<option value="20">20% Good Ok</option>
+					<option value="10">10% Bad</option>
+					<option value="5">5% Terrible</option>
+				</select>
+			</div>
+			<div class="cal-item">
+				<h5>Split</h5>
+				<h2 id="splitStatus">1</h2>
+				<input
+					type="range"
+					min="1"
+					max="12"
+					value="1"
+					class="slider"
+					id="split"
+				/>
+			</div>
+			<div class="cal-item status">
+				<h5>Total per person</h5>
+				<h2 id="perPerson">00.00</h2>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
