@@ -3,7 +3,16 @@
 	margin: 0;
 	padding: 0;
 }
-
+#me {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: #c6cbd3;
+	font-size: 12px;
+	font-weight: 100;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
 body {
 	background: #0b2852;
 	display: flex;
@@ -35,6 +44,17 @@ body::after {
 	min-height: 70vh;
 	background-color: #41546c;
 	width: 380px;
+}
+
+.title {
+	color: #ffffffc7;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 15px;
+	height: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 .cal-item {
 	color: #ffffff;
