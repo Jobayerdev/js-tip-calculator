@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
+select:focus {
+	outline: none;
+}
 #me {
 	position: absolute;
 	right: 10px;
@@ -135,7 +138,7 @@ body::after {
 
 select {
 	margin-top: 10px;
-	width: 20em;
+	width: 100%;
 	height: 3em;
 	line-height: 3;
 	background: #2c3e50;
